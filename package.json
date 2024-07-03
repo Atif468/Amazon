@@ -1,0 +1,12 @@
+{
+  "script":
+  {
+    "built-css":"npx tailwindcss -i ./src/input.css -o ./src/stylet.css --watch"
+  },
+  "dependencies": {
+    "live-server":"^5.7.9"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
